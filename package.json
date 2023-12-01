@@ -1,0 +1,24 @@
+{
+  "name": "vanillarollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "live-server": "^1.2.2",
+    "rollup": "^4.6.0",
+    "rollup-plugin-css-only": "^4.5.2",
+    "terser": "^5.24.0"
+  }
+}
